@@ -2,23 +2,18 @@
 
   1. Сделать FORK с текущего репозитория в свой аккаунт
   2. Сделать классы-наследники класса org.app.woker.Worker и добавить в них свойства:
-        2. класс Manager
-            * свойство String project
-            * свойство int expirience;
-        2. класс Programmer
-            * свойство String language
-            * свойство String rate;
-        3. класс QAEngeneer
-            * свойство boolean automationQA;
+        * класс Manager: добавить свойства String project, int expirience
+        * класс Programmer: добавить свойства String language, String rate;
+        3. класс QAEngeneer: добавить свойство boolean automationQA;
 
-* В каждом из классов-наследников переопределить метод getWorkerPosition
+  3. В каждом из классов-наследников переопределить метод getWorkerPosition
 
-3. В класс WorkerInfoStore добавить 3 private свойства
+  4. В класс WorkerInfoStore добавить 3 private свойства
         * Manager [] managers;
         * Programmer [] programmers;
         * QAEngeneer[] qaEngeneers;
 
-4. В класс WorkerInfoStore добавить и реализовать следущие методы:
+5. В класс WorkerInfoStore добавить и реализовать следущие методы:
 ```
     //добавить в массив managers
     public void add(Manager worker);
@@ -37,4 +32,4 @@
     **/
     public void add(Worker worker);
 ```
-5. Сделать чтобы класс WorkerInfoStore реализовывал паттерн Singleton.
+6. Сделать чтобы класс WorkerInfoStore реализовывал паттерн Singleton.
