@@ -4,13 +4,13 @@
   2. Сделать классы-наследники класса org.app.woker.Worker и добавить в них свойства:
         * класс Manager: добавить свойства String project, int expirience
         * класс Programmer: добавить свойства String language, String rate;
-        3. класс QAEngeneer: добавить свойство boolean automationQA;
+        * класс QAEngeneer: добавить свойство boolean automationQA;
 
   3. В каждом из классов-наследников переопределить метод getWorkerPosition
 
   4. В класс WorkerInfoStore добавить 3 private свойства
         * Manager [] managers;
-        * Programmer [] programmers;
+        * Programmer [] programmers
         * QAEngeneer[] qaEngeneers;
 
 5. В класс WorkerInfoStore добавить и реализовать следущие методы:
