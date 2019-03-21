@@ -2,18 +2,18 @@
 
   1. Сделать FORK с текущего репозитория в свой аккаунт
   2. Сделать классы-наследники класса org.app.woker.Worker и добавить в них свойства:
-        * класс Manager
-        ** свойство String project
-        ** свойство int expirience;
-        * класс Programmer
-        ** свойство String language
-        ** свойство String rate;
-        * класс QAEngeneer
-        ** свойство boolean automationQA;
+        2. класс Manager
+            * свойство String project
+            * свойство int expirience;
+        2. класс Programmer
+            * свойство String language
+            * свойство String rate;
+        3. класс QAEngeneer
+            * свойство boolean automationQA;
 
 * В каждом из классов-наследников переопределить метод getWorkerPosition
 
-3. В класс WorkerInfoStore добавить 3 **private** свойства:
+3. В класс WorkerInfoStore добавить 3 private свойства
         * Manager [] managers;
         * Programmer [] programmers;
         * QAEngeneer[] qaEngeneers;
